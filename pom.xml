@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.glocalme.css</groupId>
-  <artifactId>css-spark-ml</artifactId>
+  <groupId>com.glocalme.share</groupId>
+  <artifactId>share-spark-ml</artifactId>
   <version>1.0</version>
-  <name>css-spark-ml</name>
-  <description>css-spark-ml</description>
+  <name>share-spark-ml</name>
+  <description>share-spark-ml</description>
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>

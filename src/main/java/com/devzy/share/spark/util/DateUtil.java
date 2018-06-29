@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.util;
+package com.glocalme.share.spark.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

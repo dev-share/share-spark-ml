@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.common.jdbc;
+package com.glocalme.share.spark.common.jdbc;
 
 import java.lang.reflect.Field;
 import java.sql.Connection;

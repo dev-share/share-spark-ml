@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.common;
+package com.glocalme.share.spark.common;
 
 import java.io.Serializable;
 import java.util.Comparator;

@@ -145,7 +145,7 @@ Which Server?
   me that XsunMono is about 800k smaller and therefore should contribute
   to less paging.  
          [ thanks to: Jonny Farringdon (j.farringdon@psychol.ucl.ac.uk),
-                        Michael Salmon (Michael.Salmon@eos.ericsson.se) ]
+                        Michael Salmon (Michael.Salmon@eos.erishareon.se) ]
 
   How your server was compiled can also make a difference.  Jeff Law
   (law@schirf.cs.utah.edu) advises us that on a Sun system, X should be
@@ -620,7 +620,7 @@ Say What!?
   I'm not in a situation where I can easily try this, but I have received
   the following confirmation...
 
-  Michael Salmon (Michael.Salmon@eos.ericsson.se):
+  Michael Salmon (Michael.Salmon@eos.erishareon.se):
     I regularly run programs on other machines and I notice a big
     difference. I try to run on a machine where I will reduce net usage
     and usually with nice to reduce the impact of my intrusion. This

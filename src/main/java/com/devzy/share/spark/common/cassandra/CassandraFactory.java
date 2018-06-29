@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.common.cassandra;
+package com.glocalme.share.spark.common.cassandra;
 import java.lang.reflect.Field;
 import java.net.InetSocketAddress;
 import java.util.ArrayList;

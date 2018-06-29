@@ -1,9 +1,9 @@
-package com.glocalme.css.spark.vsim.pojo;
+package com.glocalme.share.spark.vsim.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import com.glocalme.css.spark.util.DateUtil;
+import com.glocalme.share.spark.util.DateUtil;
 
 public class TerminalFlowUpload implements Serializable {
 	private static final long serialVersionUID = 8555236853037003802L;

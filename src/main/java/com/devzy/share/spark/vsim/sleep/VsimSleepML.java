@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.vsim.sleep;
+package com.glocalme.share.spark.vsim.sleep;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -33,10 +33,10 @@ import org.bson.Document;
 import org.bson.types.ObjectId;
 
 import com.alibaba.fastjson.JSON;
-import com.glocalme.css.spark.common.SparkComparator;
-import com.glocalme.css.spark.common.SparkConfig;
-import com.glocalme.css.spark.util.StringUtil;
-import com.glocalme.css.spark.vsim.pojo.TerminalFlowUpload;
+import com.glocalme.share.spark.common.SparkComparator;
+import com.glocalme.share.spark.common.SparkConfig;
+import com.glocalme.share.spark.util.StringUtil;
+import com.glocalme.share.spark.vsim.pojo.TerminalFlowUpload;
 import com.mongodb.spark.MongoSpark;
 import com.mongodb.spark.rdd.api.java.JavaMongoRDD;
 
@@ -60,8 +60,8 @@ public class VsimSleepML implements Serializable {
 		String odatabase = SparkConfig.getProperty("spark.mongodb.output.database");
 		String oschema = SparkConfig.getProperty("spark.mongodb.output.schema");
 //		String itable = "t_terminal_flow_upload_forML";
-		String itable = "css_terminal_flow_upload";
-		String otable = "css_terminal_flow_upload_ml";
+		String itable = "share_terminal_flow_upload";
+		String otable = "share_terminal_flow_upload_ml";
 //		String auth = "mongodb://username:password@127.0.0.1:27017/db.table?authSource=admin&readPreference=primaryPreferred";
 		String rurl = iurl+"/"+ischema+"."+itable+"?authSource="+idatabase+"";
 		String wurl = ourl+"/"+oschema+"."+otable+"?authSource="+odatabase+"&readPreference=primaryPreferred";

@@ -4,7 +4,7 @@ Keywords: DISPLAY, X Windows, .cshrc Unix
 Organization: Griffith University.
 Lines: 114
 
-ainman@css.itd.umich.edu (Andrew Douglas Inman) writes:
+ainman@share.itd.umich.edu (Andrew Douglas Inman) writes:
 | Does anyone out there know of a way to have a UNIX machine automatically
 | set it's display variable to that of the Xterm you're using when it's
 | not the machine that's serving you X? 

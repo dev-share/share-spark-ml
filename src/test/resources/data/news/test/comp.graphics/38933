@@ -69,7 +69,7 @@ Lines: 173
           tions,  will include an advanced PHIGS debugger that allows PHIGS
           developers to display and browse PHIGS structures and other PHIGS
           internal  state.  G5G  also  described  their Non-Duplicated Data
-          Store that stores pointers to application data in the GPHIGS  CSS
+          Store that stores pointers to application data in the GPHIGS  share
           for  more  efficient  use  of  memory. In addition, G5G described
           their application GSE that allows application callback  functions
           during  GPHIGS traversal.  GPHIGS and PHIGURE, G5G's data visual-

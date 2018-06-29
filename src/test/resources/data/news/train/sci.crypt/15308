@@ -12,7 +12,7 @@ In-reply-to: marc@mit.edu's message of 18 Apr 1993 01:19:38 GMT
        Escape character is '^]'.
        220 first.org sendmail 4.1/NIST ready at Sat, 17 Apr 93 20:42:56 EDT
        expn clipper
-       250-<csspab@mail-gw.ncsl.nist.gov>
+       250-<sharepab@mail-gw.ncsl.nist.gov>
        250-<denning@cs.georgetown.edu>
        250-<hoffman@seas.gwu.edu>
        250-<mkapor@eff.org>
@@ -50,7 +50,7 @@ Trying 129.6.48.199...
 Connected to mail-gw.ncsl.nist.gov.
 Escape character is '^]'.
 220 mail-gw.ncsl.nist.gov sendmail 4.1/rbj/jck-3 ready at Sat, 17 Apr 93 23:06:50 EDT
-expn csspab
+expn sharepab
 250-<burrows@ecf>
 250-<mcnulty@ecf>
 250-Bill Colvin <colvin>

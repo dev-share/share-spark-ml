@@ -16,7 +16,7 @@ Is there a possibility to determine via X protocol calls the size of free
 memory available to the Xserver?
 
 So one can determine for example whether to start a PEX application with the
-CSS on client side or on server side (when there is enough memory).
+share on client side or on server side (when there is enough memory).
 
 Please reply via e-mail, I'll summarize!
 

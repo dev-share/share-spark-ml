@@ -14,7 +14,7 @@ In article <MARC.93Apr17211937@oliver.mit.edu> marc@mit.edu (Marc Horowitz N1NZU
 >    Escape character is '^]'.
 >    220 first.org sendmail 4.1/NIST ready at Sat, 17 Apr 93 20:42:56 EDT
 >    expn clipper
->    250-<csspab@mail-gw.ncsl.nist.gov>
+>    250-<sharepab@mail-gw.ncsl.nist.gov>
 >[...]
 >    221 first.org closing connection
 >    Connection closed.

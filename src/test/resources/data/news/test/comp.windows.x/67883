@@ -495,7 +495,7 @@ Notes:
     contrib/xview3/Fixes/xview3_rs6k_XView_lib.patch.Z.
 
 System: linux
-Porter: Kenneth Osterberg <lmfken@lmf.ericsson.se>
+Porter: Kenneth Osterberg <lmfken@lmf.erishareon.se>
 ICompiler: gcc 2.3.3, libc4.2
 Ftp: tsx-11.mit.edu /pub/linux/binaries/usr.bin.X11/xview3L2
 Ftp: sunsite.unc.edu

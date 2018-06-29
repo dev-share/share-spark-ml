@@ -1,8 +1,8 @@
-From: weston@ucssun1.sdsu.edu (weston t)
+From: weston@ushareun1.sdsu.edu (weston t)
 Subject: graphical representation of vector-valued functions
 Organization: SDSU Computing Services
 Lines: 13
-NNTP-Posting-Host: ucssun1.sdsu.edu
+NNTP-Posting-Host: ushareun1.sdsu.edu
 
 gnuplot, etc. make it easy to plot real valued functions of 2 variables
 but I want to plot functions whose values are 2-vectors. I have been 
@@ -13,7 +13,7 @@ done the work. Any pointers??
 thanx in advance
 
 
-Tom Weston                    | USENET: weston@ucssun1.sdsu.edu
+Tom Weston                    | USENET: weston@ushareun1.sdsu.edu
 Department of Philosophy      | (619) 594-6218 (office)
 San Diego State Univ.         | (619) 575-7477 (home)
 San Diego, CA 92182-0303      | 

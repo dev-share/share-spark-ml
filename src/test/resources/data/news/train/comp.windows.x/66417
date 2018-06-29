@@ -3,7 +3,7 @@ Subject: Re: Private Colormaps & Widget creation
 Organization: Ohio State Computer Science
 Lines: 13
 NNTP-Posting-Host: oboe.cis.ohio-state.edu
-In-reply-to: nancie@neko.CSS.GOV's message of 2 Apr 1993 14:55:09 -0500
+In-reply-to: nancie@neko.share.GOV's message of 2 Apr 1993 14:55:09 -0500
 
 You are right in supposing that the problem is with the XmNcolormap
 (XtNcolormap for truly literate beings) not being set.  What you want

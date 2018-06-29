@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.common.greenplum;
+package com.glocalme.share.spark.common.greenplum;
 
 import java.util.List;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.glocalme.css.spark.common.jdbc.JDBCFactory;
+import com.glocalme.share.spark.common.jdbc.JDBCFactory;
 
 
 /**

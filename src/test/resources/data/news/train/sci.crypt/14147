@@ -42,7 +42,7 @@ QUESTIONS AND ANSWERS
  sent it can be confirmed) and privacy (i.e. nobody can read it except
  the intended recipient.)
 
- RIPEM was written primarily by Mark Riordan <mrr@scss3.cl.msu.edu>.
+ RIPEM was written primarily by Mark Riordan <mrr@sshare3.cl.msu.edu>.
  Most of the code is in the public domain, except for the RSA routines,
  which are a library called RSAREF licensed from RSA Data Security Inc.
 

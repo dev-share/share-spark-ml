@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.util;
+package com.glocalme.share.spark.util;
 
 public class StringUtil {
 	public static boolean isEmptyStr(String target){

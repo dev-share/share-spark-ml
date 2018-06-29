@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.util;
+package com.glocalme.share.spark.util;
 
 public class NumberUtil {
 	public static boolean isNumber(String target){

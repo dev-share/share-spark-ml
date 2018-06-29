@@ -1,9 +1,9 @@
-package com.glocalme.css.spark.common;
+package com.glocalme.share.spark.common;
 
-import com.glocalme.css.spark.common.cassandra.CassandraFactory;
-import com.glocalme.css.spark.common.greenplum.GreenplumFactory;
-import com.glocalme.css.spark.common.jdbc.JDBCFactory;
-import com.glocalme.css.spark.common.mongodb.MongoDBFactory;
+import com.glocalme.share.spark.common.cassandra.CassandraFactory;
+import com.glocalme.share.spark.common.greenplum.GreenplumFactory;
+import com.glocalme.share.spark.common.jdbc.JDBCFactory;
+import com.glocalme.share.spark.common.mongodb.MongoDBFactory;
 /**
  * @decription 配置文件获取数据源工厂
  * @author yi.zhang

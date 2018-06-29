@@ -1,12 +1,12 @@
 From: mdb@rossby.colorado.edu (Mark Borges)
 Subject: Re: SUMMARY: virtual mouse in ol{v}wm
-In-Reply-To: euamol@eua.ericsson.se's message of Fri, 30 Apr 1993 06:45:24 GMT
+In-Reply-To: euamol@eua.erishareon.se's message of Fri, 30 Apr 1993 06:45:24 GMT
 Nntp-Posting-Host: rossby.colorado.edu
 Organization: CIRES, University of Colorado
 Lines: 14
 
 >>>>> Regarding Re: SUMMARY: virtual mouse in ol{v}wm;
->>>>> euamol@eua.ericsson.se (Mats Larsson) adds:
+>>>>> euamol@eua.erishareon.se (Mats Larsson) adds:
 : VirtualGrabKeys is not an OW resource. It belongs to olvwm(1).
 
 Not only that, the olvwm(1) (version3.3) man-page says it's called

@@ -1,4 +1,4 @@
-package com.glocalme.css.spark.common.mongodb;
+package com.glocalme.share.spark.common.mongodb;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

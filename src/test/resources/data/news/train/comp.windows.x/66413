@@ -1,9 +1,9 @@
-From: etxmesa@eos.ericsson.se (Michael Salmon)
+From: etxmesa@eos.erishareon.se (Michael Salmon)
 Subject: Re: Help building X11R5 with gcc
 Keywords: X11R5, gcc
-Nntp-Posting-Host: eos6c02.ericsson.se
-Reply-To: etxmesa@eos.ericsson.se (Michael Salmon)
-Organization: Ericsson Telecom AB
+Nntp-Posting-Host: eos6c02.erishareon.se
+Reply-To: etxmesa@eos.erishareon.se (Michael Salmon)
+Organization: Erishareon Telecom AB
 Lines: 23
 
 In article <1993Apr6.024257.8480@etrog.se.citri.edu.au>
@@ -27,5 +27,5 @@ Michael Salmon
 #include	<witty.saying>
 #include	<fancy.pseudo.graphics>
 
-Ericsson Telecom AB
+Erishareon Telecom AB
 Stockholm

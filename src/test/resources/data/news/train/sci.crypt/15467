@@ -3,7 +3,7 @@ Subject: Re: Source of random bits on a Unix workstation
 Organization: Wimsey Information Services
 Lines: 42
 
-In article <1qs6cg$7cq@msuinfo.cl.msu.edu> mrr@scss3.cl.msu.edu (Mark Riordan) writes:
+In article <1qs6cg$7cq@msuinfo.cl.msu.edu> mrr@sshare3.cl.msu.edu (Mark Riordan) writes:
 >A few more sources are statistics on your filesystems (easily
 >and quickly obtained) and the output from the "rusage" system
 >call.  

@@ -89,9 +89,9 @@ import org.jblas.DoubleMatrix;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.datastax.spark.connector.japi.CassandraJavaUtil;
-import com.glocalme.css.spark.common.SparkComparator;
-import com.glocalme.css.spark.util.DateUtil;
-import com.glocalme.css.spark.util.StringUtil;
+import com.glocalme.share.spark.common.SparkComparator;
+import com.glocalme.share.spark.util.DateUtil;
+import com.glocalme.share.spark.util.StringUtil;
 import com.mongodb.spark.MongoSpark;
 import com.mongodb.spark.config.ReadConfig;
 import com.mongodb.spark.rdd.api.java.JavaMongoRDD;
@@ -876,11 +876,11 @@ public class SparkMLTest implements Serializable{
 		}).sum();
 		double accuracy_scaled = lrTotalCorrectScaled / data.count();
 		
-		BinaryClassificationMetrics lrMetricsScaled = new BinaryClassificationMetrics(lrm_predicted_actual.map(v->new Tuple2<Object,Object>(v._1(),v._2())).rdd());
+		BinaryClassificationMetrics lrMetrisharecaled = new BinaryClassificationMetrics(lrm_predicted_actual.map(v->new Tuple2<Object,Object>(v._1(),v._2())).rdd());
 		System.err.println("lr_scaled_model:\t"+lrModelScaled.getClass().getSimpleName());
 		System.err.println("lr_scaled_accuracy:\t"+accuracy_scaled * 100+"%");
-		System.err.println("lr_scaled_PR:\t"+lrMetricsScaled.areaUnderPR() * 100+"%");
-		System.err.println("lr_scaled_ROC:\t"+lrMetricsScaled.areaUnderROC() * 100+"%");
+		System.err.println("lr_scaled_PR:\t"+lrMetrisharecaled.areaUnderPR() * 100+"%");
+		System.err.println("lr_scaled_ROC:\t"+lrMetrisharecaled.areaUnderROC() * 100+"%");
 		//(x – μ) / sqrt(variance) : 每个特征值减去列的均值，然后除以列的标准差以进行缩放
 		StandardScalerModel scalerCats = new StandardScaler(true, true).fit(_features_.rdd());//减去均值,标准差缩放
 		JavaRDD<LabeledPoint> scaledDataCats = dataCategories.map(new Function<LabeledPoint, LabeledPoint>() {
@@ -1803,7 +1803,7 @@ public class SparkMLTest implements Serializable{
 		System.out.println("================================================模型评估[2s]================================================");
 		double movieCost = movieClusterModel.computeCost(movieVectors.rdd());
 		double userCost = userClusterModel.computeCost(userVectors.rdd());
-		System.out.println("movie WCSS:"+movieCost+",user WCSS:"+userCost);//K-元件的目标函数
+		System.out.println("movie Wshare:"+movieCost+",user Wshare:"+userCost);//K-元件的目标函数
 		System.out.println("================================================模型评估[2e]================================================");
 		System.out.println("================================================参数调优[3s]================================================");
 		int[] Cluster={2,3,4,5,10,20,30,50};//最优K值10
@@ -1812,14 +1812,14 @@ public class SparkMLTest implements Serializable{
 		JavaRDD<Vector> testMovies = trainTestSplitMovies[1];
 		for (int k: Cluster) {
 			KMeansModel model = KMeans.train(trainMovies.rdd(), numIterations, k, numRuns);
-			System.out.println("Cluster["+k+"]movie WCSS:"+model.computeCost(testMovies.rdd()));
+			System.out.println("Cluster["+k+"]movie Wshare:"+model.computeCost(testMovies.rdd()));
 		}
 		JavaRDD<Vector>[] trainTestSplitUsers = userVectors.randomSplit(new double[]{0.6, 0.4}, 123);
 		JavaRDD<Vector> trainUsers = trainTestSplitUsers[0];
 		JavaRDD<Vector> testUsers = trainTestSplitUsers[1];
 		for (int k: Cluster) {
 			KMeansModel model = KMeans.train(trainUsers.rdd(), numIterations, k, numRuns);
-			System.out.println("Cluster["+k+"]user WCSS:"+model.computeCost(testUsers.rdd()));
+			System.out.println("Cluster["+k+"]user Wshare:"+model.computeCost(testUsers.rdd()));
 		}
 		System.out.println("================================================参数调优[3e]================================================");
 		System.out.println("------------------------------------------------聚类模型[end]------------------------------------------------");
